@@ -1,0 +1,579 @@
+repo_name: Huntemall/screenshot-to-code.devbiz
+report_id: bbdba41f9d2a77552cc5d94f530f1e2d
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:57:00+00:00'
+requested_by: abi
+provider: github
+branch: dev
+detected_tools_count: 42
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 18:10:41.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.95.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/Dockerfile
+  detection_source: frontend/Dockerfile
+  last_updated_by: Jonathan Adly
+  last_updated_on: 2023-11-16 18:08:18.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 18:10:41.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-15 18:11:41.000000000 Z
+- name: CodeMirror
+  description: A versatile text editor implemented in JavaScript for the browser
+  website_url: http://codemirror.net/
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Text Editor
+  image_url: https://img.stackshare.io/service/2490/E_fCaAi6.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-16 01:12:30.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 18:10:41.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/pyproject.toml
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 18:10:41.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/yarn.lock
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 18:10:41.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/package.json
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 18:10:41.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 1.3.7
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz
+  detection_source: Repo Metadata
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.5.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-07 02:57:25.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite's `server.fs.deny` did not deny requests for patterns with directories.
+    cve_id: CVE-2024-31207
+    cve_url: https://github.com/advisories/GHSA-8jhw-289h-jh2g
+    detected_date: Apr 4
+    severity: moderate
+    first_patched: 4.5.3
+  - name: Vite XSS vulnerability in `server.transformIndexHtml` via URL payload
+    cve_id: CVE-2023-49293
+    cve_url: https://github.com/advisories/GHSA-92r3-m2mg-pj97
+    detected_date: Dec 6
+    severity: moderate
+    first_patched: 4.5.1
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 20.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-16 23:48:30.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.2.37
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.2.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-07 02:57:25.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.11.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-15 18:11:41.000000000 Z
+- name: classnames
+  description: A simple utility for conditionally joining classNames together
+  package_url: https://www.npmjs.com/classnames
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15942/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-15 18:11:41.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: html2canvas
+  description: Screenshots with JavaScript
+  package_url: https://www.npmjs.com/html2canvas
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17554/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-07 02:57:25.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: react-dropzone
+  description: Simple HTML5 drag-drop zone with React.js
+  package_url: https://www.npmjs.com/react-dropzone
+  version: 14.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16979/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-13 21:38:26.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/frontend/yarn.lock
+  detection_source: frontend/package.json
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-15 18:11:41.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-15 04:05:41.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.25.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-20 16:48:33.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 1.3.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-12-10 15:50:02.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/pyproject.toml
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
+- name: websockets
+  description: An implementation of the WebSocket Protocol
+  package_url: https://pypi.org/project/websockets
+  version: '12.0'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19951/default_fbe690a687f1af7dc36ac3d526708be3294c4cc9.png
+  detection_source_url: https://github.com/Huntemall/screenshot-to-code.devbiz/blob/dev/backend/poetry.lock
+  detection_source: backend/pyproject.toml
+  last_updated_by: Abi Raja
+  last_updated_on: 2023-11-14 19:40:17.000000000 Z
